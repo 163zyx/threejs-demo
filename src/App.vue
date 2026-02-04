@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
+// import HelloWorld from './components/HelloWorld.vue';
+import ThreeDScene from './components/3dscence.vue';
 </script>
 <template>
-  <HelloWorld />
+  <!-- <HelloWorld /> -->
+  <ThreeDScene />
 </template>
 
 <style scoped></style>

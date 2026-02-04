@@ -287,7 +287,11 @@ function main() {
    * 加载单个数据文件
    * @param {Object} info - 文件信息对象
    */
-  async function loadData(info) {
+  async function loadData(info: {
+    name: string;
+    hueRange: number[];
+    url: string;
+  }) {
     const text = await loadFile(info.url);
     info.file = parseData(text);
   }
